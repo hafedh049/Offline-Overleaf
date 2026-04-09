@@ -15,7 +15,7 @@ wsl --install -d Ubuntu
 wsl -d Ubuntu
 ```
 
-![[images\Pasted image 20260409202551.png]]
+![[images/Pasted image 20260409202551.png]]
 
 - After installation, your WSL Ubuntu shell is ready to run **docker & Overleaf Toolkit**.
 
