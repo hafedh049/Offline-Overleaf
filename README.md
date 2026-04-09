@@ -51,6 +51,21 @@ newgrp docker
 # Remove old docker-compose v1 if exists
 sudo apt remove docker-compose -y
 
+# Configure systemd for docker 
+sudo nano /etc/wsl.conf
+# Then add these lines inside the file
+[boot]
+systemd=true
+
+# Then exit the wsl
+exit
+
+# Shutdown it
+wsl --shutdown
+
+# Reopen it again
+wsl -d Ubuntu
+
 # Install Docker Compose v5
 sudo curl -L "https://github.com/docker/compose/releases/latest/download/docker-compose-linux-x86_64" -o /usr/local/bin/docker-compose
 sudo chmod +x /usr/local/bin/docker-compose
