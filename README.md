@@ -15,7 +15,7 @@ wsl --install -d Ubuntu
 wsl -d Ubuntu
 ```
 
-![[Pasted image 20260409202551.png]]
+![[images\Pasted image 20260409202551.png]]
 
 - After installation, your WSL Ubuntu shell is ready to run **docker & Overleaf Toolkit**.
 
@@ -33,7 +33,7 @@ chmod 440 /etc/sudoers.d/$SUDO_USER
 exit
 ```
 
-![[Pasted image 20260409201035.png]]
+![[images/Pasted image 20260409201035.png]]
 
 
 ---
@@ -57,7 +57,7 @@ sudo chmod +x /usr/local/bin/docker-compose
 docker-compose --version   # should show v5.x
 ```
 
-![[Pasted image 20260409201112.png]]
+![[images/Pasted image 20260409201112.png]]
 
 ---
 
@@ -71,7 +71,7 @@ ls
 # bin  CHANGELOG.md  config  data  doc  lib  LICENSE  README.md
 ```
 
-![[Pasted image 20260409201200.png]]
+![[images/Pasted image 20260409201200.png]]
 
 ---
 
@@ -100,7 +100,7 @@ SIBLING_CONTAINERS_ENABLED=false
 
 > This is **mandatory for Community Edition**, otherwise CE will fail to start.
 
-![[Pasted image 20260409201241.png]]
+![[images/Pasted image 20260409201241.png]]
 
 ---
 
@@ -126,7 +126,7 @@ bin/doctor
 ====== End ======
 ```
 
-![[Pasted image 20260409201324.png]]
+![[images/Pasted image 20260409201324.png]]
 
 ---
 
@@ -147,7 +147,7 @@ bin/logs
 bin/logs -f web filestore docstore clsi
 ```
 
-![[Pasted image 20260409201406.png]]
+![[images/Pasted image 20260409201406.png]]
 
 ---
 
@@ -159,7 +159,7 @@ bin/logs -f web filestore docstore clsi
     
 - Ignore any test step, just log in and start using Overleaf
     
-![[Pasted image 20260409201436.png]]
+![[images/Pasted image 20260409201436.png]]
 
 ---
 
@@ -170,7 +170,7 @@ bin/logs -f web filestore docstore clsi
 - Either **import a project** or **create a blank project** for testing/editing
     
 
-![[Pasted image 20260409201443.png]]
+![[images/Pasted image 20260409201443.png]]
 
 ---
 
@@ -218,6 +218,6 @@ tlmgr install scheme-full
     
 **Screenshot placeholder** – TeX Live installation
 
-![[Pasted image 20260409201606.png]]
+![[images/Pasted image 20260409201606.png]]
 
 ---
