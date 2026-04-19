@@ -211,8 +211,3 @@ tlmgr install scheme-full
 - This may take a while (~5–6GB).
 - In the project **File** ~ **Settings** ~ **Compiler** ~ Choose **XeLatex**
     
----
-    
-**Screenshot placeholder** – TeX Live installation
-
----
